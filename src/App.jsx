@@ -51,7 +51,7 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white pt-14 px-5 md:px-0">
+          <div className="bg-white pt-14 px-5 md:px-0 mb-16">
             <div className="py-2 md:px-10 max-w-[1106px] mx-auto">
               <h2 className="text-custom-blue-1 font-bold text-lg mb-3">
                 WHERE YOU STAND
@@ -62,6 +62,28 @@ function App() {
           </div>
 
         </main>
+
+        <footer className="bg-white border-t border-[#D9D9D9] py-4 px-5 md:px-0">
+          <div className="max-w-[1106px] mx-auto">
+            <p className="text-center text-sm text-primary-black mb-3">
+              © Copyright 2025 NetBramha Studio LLP. All Rights Reserved.
+            </p>
+            <nav className="flex flex-col sm:flex-row text-center sm:text-left justify-center gap-4 sm:gap-10 text-sm mb-2">
+              <a href="#" className="text-primary-black underline text-sm">
+                FAQs
+              </a>
+              <a href="#" className="text-primary-black underline text-sm">
+                Terms and Conditions
+              </a>
+              <a href="#" className="text-primary-black underline text-sm">
+                Privacy Policy
+              </a>
+              <a href="#" className="text-primary-black underline text-sm">
+                Raise a Dispute
+              </a>
+            </nav>
+          </div>
+        </footer>
       </div>
     </>
   )
