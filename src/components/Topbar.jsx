@@ -20,7 +20,7 @@ export default function Topbar(props) {
           <img src={HamburgerMenu} width={24} height={24} alt="menu" />
         </button>
 
-        <div className="ml-auto flex items-center gap-2 md:gap-6">
+        <div className="ml-auto flex items-center gap-2 sm:gap-6">
           <div className="flex items-center gap-[6px] cursor-pointer">
             <img src={Help} width={22} height={22} alt="help" />
             <span className="text-primary-black hidden sm:inline-block">How It Works</span>
