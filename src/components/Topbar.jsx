@@ -9,7 +9,7 @@ export default function Topbar(props) {
   const { handleMobileMenuClick, isSidebarOpen } = props;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-30 border-b border-custom-grey bg-white md:pl-[260px] lg:pr-10" role="navigation">
+    <header className="fixed top-0 left-0 right-0 z-30 border-b border-custom-grey bg-white md:pl-[260px] lg:pr-8" role="navigation">
       <div className="flex h-[60px] items-center px-5">
         <button
           className="md:hidden flex items-center justify-center focus:outline-none"
