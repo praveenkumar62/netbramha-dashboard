@@ -65,12 +65,12 @@ function CustomTooltip({ active, payload }) {
 
 export default function ScoreChart() {
   return (
-    <div className="rounded-md bg-[#F7F9FA]">
-      <h3 className="text-primary-black text-base pt-4 pl-6">
+    <div className="rounded-xl bg-[#F7F9FA]">
+      <h3 className="text-primary-black text-base pt-4 px-6">
         Trended view of the changes in your NB Score with every refresh.
       </h3>
-      <div className="flex gap-5 px-7">
-        <div className="w-[80%]">
+      <div className="flex gap-5 px-7 flex-col lg:flex-row">
+        <div className="w-full lg:w-[80%]">
           <ResponsiveContainer width="100%" height={300}>
             <LineChart data={data} margin={{ top: 24, right: 15, left: -20, bottom: 16 }}>
               <CartesianGrid stroke="#BFBFBF" strokeDasharray="3 3" />
@@ -128,7 +128,7 @@ export default function ScoreChart() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <div className="w-[20%] bg-white h-[250px] overflow-auto rounded-lg py-3 px-4 mt-5">
+        <div className="w-full lg:w-[20%] bg-white h-[250px] overflow-auto rounded-lg py-3 px-4 mt-5">
           <h4 className="border-b border-primary-black pb-2 text-base font-bold">
             August 2022
           </h4>

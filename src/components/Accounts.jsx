@@ -22,8 +22,8 @@ export default function Accounts() {
 
   return (
     <section className="shadow-[0_4px_20px_rgba(0,58,87,0.05)] rounded-lg border-t border-[#00A6CA] pt-6 pb-2 px-6 bg-white">
-      <div className="flex justify-between items-center mb-5">
-        <h2 className="text-custom-blue-1 font-bold text-lg flex items-center">
+      <div className="flex flex-col md:flex-row justify-between items-center mb-5">
+        <h2 className="text-custom-blue-1 font-bold text-lg flex items-center mb-3 md:mb-0">
           Your Accounts
           <img src={Info} alt="accounts" width={24} height={24} className="inline-block cursor-pointer ml-2" />
         </h2>
@@ -62,8 +62,8 @@ export default function Accounts() {
         </div>
       </div>
 
-      <div className="flex items-center gap-8">
-        <div className="w-64 h-64 relative">
+      <div className="flex flex-col xl:flex-row items-center gap-8">
+        <div className="w-full xl:w-64 h-64 relative">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie

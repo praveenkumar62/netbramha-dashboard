@@ -15,3 +15,14 @@ body {
 .recharts-wrapper {
   z-index: 5;
 }
+@media (max-width: 385px) {
+  .progress-container {
+    padding: 0.5rem;
+  }
+  .progress-styles {
+    gap: 0;
+  }
+  .progress-styles > div > span {
+    font-size: 10px;
+  }
+}
