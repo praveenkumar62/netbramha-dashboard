@@ -12,3 +12,6 @@
 body {
   font-size: 14px;
 }
+.recharts-wrapper {
+  z-index: 5;
+}
